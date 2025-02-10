@@ -172,7 +172,7 @@ const Navbar = () => {
           </li>
           <li className="shrink-0">
             <Link
-              href=""
+              href="/"
               className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
             >
               Anh Khôi
