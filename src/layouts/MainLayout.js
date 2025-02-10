@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <header className="fixed top-0 left-0 w-full z-50">
         <Navbar />
       </header>
-      <div className="w-full sm:pt-[145px] md:pt-[155px] lg:pt-[175px]">
+      <div className="w-full sm:pt-[200px] md:pt-[155px] lg:pt-[175px]">
         {children}
       </div>
       <footer>
