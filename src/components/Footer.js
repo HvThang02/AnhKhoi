@@ -39,7 +39,6 @@ function FooterLayout() {
     <Footer className="mt-3 bg-white">
       <div className="max-w-[1200px] w-full mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          {/* Company Info Column */}
           <div className="lg:col-span-1">
             <div className="mb-4">
               <Link

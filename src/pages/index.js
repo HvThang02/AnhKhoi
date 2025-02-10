@@ -3,10 +3,6 @@ import usePosts from "../hooks/usePosts"; // Giả sử bạn có một hook đ�
 import "../styles/globals.css";
 
 const Home = () => {
-  const { posts, loading } = usePosts(); // Lấy dữ liệu bài viết từ hook
-
-  if (loading) return <div>Loading...</div>; // Hiển thị loading nếu đang tải dữ liệu
-
   return (
     <div className="w-full">
       {/* Banner section với hiệu ứng gradient */}

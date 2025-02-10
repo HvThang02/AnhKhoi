@@ -26,8 +26,7 @@ const About = () => {
               <p className="text-gray-600 leading-relaxed">
                 Anh Khôi được thành lập và hoạt động với tôn chỉ
                 <span className="font-semibold text-primary">
-                  {" "}
-                  "trao lợi ích – tích niềm tin"
+                  'trao lợi ích – tích niềm tin'
                 </span>
                 .
               </p>
