@@ -1,5 +1,4 @@
 // src/pages/index.js
-import usePosts from "../hooks/usePosts"; // Giả sử bạn có một hook để lấy bài viết
 import "../styles/globals.css";
 
 const Home = () => {
@@ -29,15 +28,13 @@ const Home = () => {
               <p className="text-gray-600 leading-relaxed">
                 Anh Khôi được thành lập và hoạt động với tôn chỉ
                 <span className="font-semibold text-primary">
-                  {" "}
-                  "trao lợi ích – tích niềm tin"
+                  'trao lợi ích – tích niềm tin'
                 </span>
                 .
               </p>
             </div>
           </div>
 
-          {/* Phần thống kê và thành tựu */}
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-4xl font-bold text-primary mb-2">24/7</div>
