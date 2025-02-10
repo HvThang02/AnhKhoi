@@ -2,21 +2,15 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-  const [isLargeScreen, setIsLargeScreen] = useState(true);
+  return (
+    <div className="w-full">
+      {/* Banner section với hiệu ứng gradient */}
+      <div className="w-full relative h-[500px] overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center"></div>
+      </div>
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLargeScreen(window.innerWidth >= 1280);
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  if (!isLargeScreen) {
-    return (
-      <div className="max-w-[1200px] mx-auto px-4 py-16 mt-[11rem]">
+      {/* Content section với thiết kế mới */}
+      <div className="max-w-[1200px] mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Phần giới thiệu công ty */}
           <div className="space-y-6">
@@ -205,35 +199,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    );
-  }
-
-  return (
-    <div className="flex w-full h-screen relative overflow-hidden mt-[11rem]">
-      <Link
-        href="/contact"
-        className="w-1/2 flex items-center justify-center bg-white text-primary font-semibold text-4xl uppercase relative overflow-hidden border-r border-primary group"
-      >
-        <span className="absolute inset-0 bg-gradient-to-r from-primary to-white transform -translate-x-full transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
-        <span className="relative z-10 flex items-center">
-          Liên Hệ
-          <span className="ml-4 transition-transform duration-300 group-hover:translate-x-2">
-            ➜
-          </span>
-        </span>
-      </Link>
-      <Link
-        href="/about"
-        className="w-1/2 flex items-center justify-center bg-white text-primary font-semibold text-4xl uppercase relative overflow-hidden group"
-      >
-        <span className="absolute inset-0 bg-gradient-to-l from-primary to-white transform translate-x-full transition-all duration-500 ease-in-out group-hover:translate-x-0"></span>
-        <span className="relative z-10 flex items-center">
-          Về Chúng Tôi
-          <span className="ml-4 transition-transform duration-300 group-hover:translate-x-2">
-            ➜
-          </span>
-        </span>
-      </Link>
     </div>
   );
 };
