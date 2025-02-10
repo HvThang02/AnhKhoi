@@ -1,5 +1,4 @@
 // src/pages/index.js
-import Layout from "../layouts/MainLayout"; // Nhập layout chính
 import usePosts from "../hooks/usePosts"; // Giả sử bạn có một hook để lấy bài viết
 import "../styles/globals.css";
 

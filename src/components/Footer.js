@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer } from "antd/es/layout/layout";
+import Link from "next/link";
 
 const footerItems = [
   {
@@ -41,66 +42,18 @@ function FooterLayout() {
           {/* Company Info Column */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <a
+              <Link
                 href="/"
                 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
               >
                 Anh Khôi
-              </a>
+              </Link>
               <h1 className="text-lg font-bold text-primary">
                 CÔNG TY CỔ PHẦN TÍCH HỢP HỆ THỐNG ANH KHÔI
               </h1>
               <p className="text-sm text-gray-600 mb-4">
                 Mã số thuế: 0314849179
               </p>
-
-              {/* Social Media Icons */}
-              {/* <div className="flex gap-3 mb-4">
-                <a
-                  href="#"
-                  className="bg-gray-800 p-2 rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  <i className="fab fa-facebook-f text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-gray-800 p-2 rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  <i className="fab fa-youtube text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-gray-800 p-2 rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  <i className="fab fa-twitter text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-gray-800 p-2 rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  <i className="fab fa-telegram text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </a>
-                <a
-                  href="#"
-                  className="bg-gray-800 p-2 rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  <i className="fab fa-skype text-white text-lg w-5 h-5 flex items-center justify-center"></i>
-                </a>
-              </div> */}
-
-              {/* Certification Badges */}
-              {/* <div className="flex gap-4">
-                <img
-                  src="/dathongbao.png"
-                  alt="Đã thông báo Bộ Công Thương"
-                  className="h-12 object-contain"
-                />
-                <img
-                  src="/dmca.png"
-                  alt="DMCA Protected"
-                  className="h-12 object-contain"
-                />
-              </div> */}
             </div>
           </div>
 
