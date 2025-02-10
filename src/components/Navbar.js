@@ -6,6 +6,7 @@ import {
   SettingOutlined,
 } from "@ant-design/icons";
 import { Carousel } from "antd";
+import Link from "next/link";
 
 const items = [
   {
@@ -174,12 +175,12 @@ const Navbar = () => {
             </button>
           </li>
           <li className="shrink-0">
-            <a
-              href="/"
+            <Link
+              href=""
               className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
             >
               Anh Khôi
-            </a>
+            </Link>
           </li>
           <div className="hidden xl:flex shrink-0">
             <li className="flex items-center space-x-2 h-[45px] md:h-[50px] px-3 border-solid border-[1px] rounded-md text-base cursor-pointer text-primary border-primary bg-white">
@@ -259,12 +260,12 @@ const Navbar = () => {
               </svg>
             </div>
             <div className="font-normal text-sm lg:block hidden">
-              <a>Liên Hệ</a>
+              <Link href="/contact">Liên Hệ</Link>
               <p>028 399 70 399</p>
             </div>
           </li>
           <li className="hidden md:flex text-primary items-center space-x-[10px] p-[15px] shrink-0">
-            <a href={`mailto:${EMAIL}?subject=Hỏi thông tin&body=Chào bạn!`}>
+            <Link href={`mailto:${EMAIL}?subject=Hỏi thông tin&body=Chào bạn!`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -279,7 +280,7 @@ const Navbar = () => {
                   d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
                 />
               </svg>
-            </a>
+            </Link>
             <div className="font-normal text-sm lg:block hidden">
               <p>Email</p>
               <p>{EMAIL}</p>
@@ -288,13 +289,13 @@ const Navbar = () => {
         </ul>
 
         <ul className="items-center justify-center space-x-[15px] sm:space-x-[30px] py-2 sm:py-3 lg:text-sm text-xs text-primary bg-white flex border-t border-gray-100">
-          <a to="about" className="py-1">
+          <Link href="/about" className="py-1">
             Giới Thiệu
-          </a>
+          </Link>
           <div className="border-l border-grey h-6" />
-          <a to="/contact" className="py-1">
+          <Link href="/contact" className="py-1">
             Liên Hệ
-          </a>
+          </Link>
         </ul>
 
         <Drawer

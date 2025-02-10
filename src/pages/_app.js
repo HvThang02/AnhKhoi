@@ -1,5 +1,5 @@
 // src/pages/_app.js
-import { PostsProvider } from "../context/PostsContext"; // Nhập PostsProvider từ context
+// import { PostsProvider } from "../context/PostsContext"; // Nhập PostsProvider từ context
 import Layout from "../layouts/MainLayout";
 import "../styles/globals.css";
 
