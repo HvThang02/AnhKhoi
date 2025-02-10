@@ -28,7 +28,7 @@ const Home = () => {
               <p className="text-gray-600 leading-relaxed">
                 Anh Khôi được thành lập và hoạt động với tôn chỉ
                 <span className="font-semibold text-primary">
-                  &apos;trao lợi ích – tích niềm tin&apos;
+                  trao lợi ích tích niềm tin
                 </span>
                 .
               </p>
