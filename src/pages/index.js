@@ -580,10 +580,10 @@ const Home = () => {
                     </svg>
                     Email:
                     <a
-                      href="mailto:info@anhkhoisi.com"
+                      href="mailto:info@anhkhoisi.com.vn"
                       className="hover:underline text-blue-700"
                     >
-                      info@anhkhoisi.com
+                      info@anhkhoisi.com.vn
                     </a>
                   </p>
 
@@ -604,10 +604,10 @@ const Home = () => {
                     </svg>
                     Website:{" "}
                     <a
-                      href="http://anhkhoisi.com.vn"
+                      href="https://anhkhoisi.com.vn"
                       className="hover:underline text-blue-700"
                     >
-                      www.anhkhoisi.com.vn
+                      anhkhoisi.com.vn
                     </a>
                   </p>
                 </div>

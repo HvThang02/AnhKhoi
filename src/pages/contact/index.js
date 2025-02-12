@@ -19,10 +19,10 @@ const Contact = () => {
           </span>
           <div className="h-6 w-px bg-gray-500 hidden sm:block"></div>
           <Link
-            href="mailto:info@anhkhoijsc.com"
+            href="mailto:info@anhkhoisi.com.vn"
             className="bg-blue-500 px-6 py-2 rounded-lg text-white font-semibold hover:bg-blue-600 transition"
           >
-            info@anhkhoijsc.com
+            info@anhkhoisi.com.vn
           </Link>
         </div>
       </div>
