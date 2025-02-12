@@ -1,5 +1,4 @@
 import React from "react";
-import { Input, Drawer } from "antd";
 
 import { Carousel } from "antd";
 import Link from "next/link";

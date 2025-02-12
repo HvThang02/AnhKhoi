@@ -1,6 +1,5 @@
 import React from "react";
 import { Footer } from "antd/es/layout/layout";
-import Link from "next/link";
 
 const footerItems = [
   {
