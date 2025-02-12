@@ -113,7 +113,7 @@ import Link from "next/link";
 //   },
 // ];
 
-const EMAIL = "trungtran@hac.com.vn";
+// const EMAIL = "trungtran@hac.com.vn";
 
 const contentStyle = {
   margin: 0,
@@ -144,10 +144,10 @@ const Navbar = () => {
           </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>Liên Hệ: 028 399 70 399</h3>
+          <h3 style={contentStyle}>Liên Hệ: 0908301313</h3>
         </div>
         <div>
-          <h3 style={contentStyle}>Email: trungtran@hac.com.vn</h3>
+          <h3 style={contentStyle}>Email: info@anhkhoijsc.com</h3>
         </div>
       </Carousel>
       <div className="mx-auto ">

@@ -167,7 +167,7 @@ const Home = () => {
   );
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-[200px]">
       {/* Banner section với hiệu ứng gradient */}
       <div className="relative w-full group shadow">
         <Carousel

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center">
+    <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center mt-[200px]">
       <div className="w-full max-w-4xl text-center px-4">
         <h2 className="text-3xl font-bold uppercase">
           Chúng tôi luôn sẵn sàng hỗ trợ bạn.
