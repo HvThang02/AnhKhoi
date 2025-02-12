@@ -36,21 +36,19 @@ const footerItems = [
 
 function FooterLayout() {
   return (
-    <Footer className="mt-3 bg-white">
+    <Footer className="mt-3 bg-secondary border-t border-gray-200">
       <div className="max-w-[1200px] w-full mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <Link
-                href="/"
-                className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text"
-              >
-                Anh Khôi
-              </Link>
+              <img
+                src="/images/anhkhoi-logo/anhkhoi-pri.png"
+                className="w-20"
+              />
               <h1 className="text-lg font-bold text-primary">
                 CÔNG TY CỔ PHẦN TÍCH HỢP HỆ THỐNG ANH KHÔI
               </h1>
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-sm text-gray-100 mb-4">
                 Mã số thuế: 0314849179
               </p>
             </div>
@@ -59,14 +57,14 @@ function FooterLayout() {
           {/* Rest of the footer content */}
           {footerItems.map((section, index) => (
             <div key={index} className="space-y-3">
-              <label className="block uppercase font-bold text-sm sm:text-base">
+              <label className="block uppercase font-bold text-sm sm:text-base text-white">
                 {section.title}
               </label>
               <div className="flex flex-col space-y-2">
                 {section.items.map((item, itemIndex) => (
                   <span
                     key={itemIndex}
-                    className="text-gray-600 hover:text-gray-900 text-sm sm:text-base cursor-pointer"
+                    className="text-gray-100  hover:text-gray-200 text-sm sm:text-base cursor-pointer"
                     onClick={() => {
                       if (typeof item === "object" && item.link) {
                         window.open(item.link, "_blank");
@@ -82,7 +80,7 @@ function FooterLayout() {
         </div>
 
         <div className="mt-8 pt-4 border-t text-center">
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-100">
             © 2024 ANH KHOI. All rights reserved.
           </p>
         </div>

@@ -1,77 +1,30 @@
-// src/pages/contact.js
 import Link from "next/link";
-import { useState } from "react";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Xử lý gửi thông tin liên hệ ở đây
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", message);
-    // Reset form
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
-
   return (
-    <div className="max-w-md mx-auto p-4 pt-[200px]">
-      {" "}
-      {/* Thêm padding-top */}
-      <h1 className="text-2xl font-bold mb-4">Liên Hệ Ngay</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="name" className="block mb-1">
-            Họ Tên
-          </label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-            className="w-full border border-gray-300 rounded p-2"
-          />
+    <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center">
+      <div className="w-full max-w-4xl text-center px-4">
+        <h2 className="text-3xl font-bold uppercase">
+          Chúng tôi luôn sẵn sàng hỗ trợ bạn.
+        </h2>
+        <p className="mt-2 text-gray-300">
+          Hãy liên hệ với chúng tôi để được tư vấn sớm nhất có thể.
+        </p>
+        <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
+          <span className="text-lg font-semibold">
+            HOTLINE:{" "}
+            <a className="text-blue-400" href="https://zalo.me/0908301313">
+              0908 301 313
+            </a>
+          </span>
+          <div className="h-6 w-px bg-gray-500 hidden sm:block"></div>
+          <Link
+            href="mailto:info@anhkhoijsc.com"
+            className="bg-blue-500 px-6 py-2 rounded-lg text-white font-semibold hover:bg-blue-600 transition"
+          >
+            info@anhkhoijsc.com
+          </Link>
         </div>
-        <div>
-          <label htmlFor="email" className="block mb-1">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="w-full border border-gray-300 rounded p-2"
-          />
-        </div>
-        <div>
-          <label htmlFor="message" className="block mb-1">
-            Tin Nhắn
-          </label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-            className="w-full border border-gray-300 rounded p-2"
-            rows="4"
-          />
-        </div>
-        <button type="submit" className="bg-blue-500 text-white rounded p-2">
-          Gửi Liên Hệ
-        </button>
-      </form>
-      <div className="mt-4">
-        <Link href="/about" className="text-blue-500">
-          Quay lại trang Giới Thiệu
-        </Link>
       </div>
     </div>
   );
