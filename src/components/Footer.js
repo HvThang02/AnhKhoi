@@ -34,7 +34,7 @@ const footerItems = [
 
 function FooterLayout() {
   return (
-    <div className="mt-3 bg-secondary border-t border-gray-200">
+    <div className="mt-3 bg-secondary border-t border-gray-200 pt-6">
       <div className="max-w-[1200px] w-full mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">

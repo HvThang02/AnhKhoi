@@ -147,7 +147,7 @@ const Navbar = () => {
           <h3 style={contentStyle}>Liên Hệ: 0908301313</h3>
         </div>
         <div>
-          <h3 style={contentStyle}>Email: info@anhkhoijsc.com</h3>
+          <h3 style={contentStyle}>Email: info@anhkhoisi.com</h3>
         </div>
       </Carousel>
       <div className="mx-auto ">
