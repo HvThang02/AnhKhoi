@@ -21,127 +21,127 @@ const slides = [
 
 const partners = [
   {
-    img: "./images/partners/1.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377956/partners/wumh49yf5xvmchgjbtg8.png",
     alt: "Partner 1",
   },
   {
-    img: "./images/partners/2.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377956/partners/nmj1nd9m7cu8prfvay47.png",
     alt: "Partner 2",
   },
   {
-    img: "./images/partners/3.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377956/partners/apf5ouhq6r2cksi1imws.png",
     alt: "Partner 3",
   },
   {
-    img: "./images/partners/4.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377956/partners/uo2jjlihzwdyvf03lkxf.png",
     alt: "Partner 4",
   },
   {
-    img: "./images/partners/5.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/hkisasmnpdssxxz18tio.png",
     alt: "Partner 5",
   },
   {
-    img: "./images/partners/6.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/gpbjtcuqav70jc9kji6i.png",
     alt: "Partner 6",
   },
   {
-    img: "./images/partners/7.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/oq15dnjh9xe1mftipijr.png",
     alt: "Partner 7",
   },
   {
-    img: "./images/partners/8.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/w0lvf7xuvqhirouecwhx.png",
     alt: "Partner 8",
   },
   {
-    img: "./images/partners/9.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/cugk0hxjtscbgnnzr8ce.png",
     alt: "Partner 9",
   },
   {
-    img: "./images/partners/10.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/xokfbukjppztnfqj6puq.png",
     alt: "Partner 10",
   },
   {
-    img: "./images/partners/11.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377957/partners/zleimk5dfhlzpngp69fy.png",
     alt: "Partner 11",
   },
   {
-    img: "./images/partners/12.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/rescwlfshnuaxsszbwbv.png",
     alt: "Partner 12",
   },
   {
-    img: "./images/partners/13.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/cmi2q1ld87xe7udmruti.png",
     alt: "Partner 13",
   },
   {
-    img: "./images/partners/14.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/ulusizikdl8rldn5xpwf.png",
     alt: "Partner 14",
   },
   {
-    img: "./images/partners/15.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/fkp6hg89uy1rd8pyxbmf.png",
     alt: "Partner 15",
   },
   {
-    img: "./images/partners/16.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/drkgxkf2kaxwlwlno6lw.png",
     alt: "Partner 16",
   },
   {
-    img: "./images/partners/17.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/spknhkuqlhcwwpem5lh8.png",
     alt: "Partner 17",
   },
   {
-    img: "./images/partners/18.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/sihhe6ygnjnypq4uhhpa.png",
     alt: "Partner 18",
   },
   {
-    img: "./images/partners/19.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377958/partners/vuaroiptmsjpahgevp5k.png",
     alt: "Partner 19",
   },
   {
-    img: "./images/partners/20.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/xm0q0wmg3m1qdmnvx6ey.png",
     alt: "Partner 20",
   },
   {
-    img: "./images/partners/21.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/uz8rhggpj0ul6mlal86q.png",
     alt: "Partner 21",
   },
   {
-    img: "./images/partners/22.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/es8ej3ox1yws4itsftyn.png",
     alt: "Partner 22",
   },
   {
-    img: "./images/partners/23.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/y4jpwcaza9drcsedmbgr.png",
     alt: "Partner 23",
   },
   {
-    img: "./images/partners/24.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/i5jqrene53vajcabquos.png",
     alt: "Partner 24",
   },
   {
-    img: "./images/partners/25.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377960/partners/muth5vjr6jizxutg4vag.png",
     alt: "Partner 25",
   },
   {
-    img: "./images/partners/26.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377960/partners/oo099d1ihjottpehlxuk.png",
     alt: "Partner 26",
   },
   {
-    img: "./images/partners/27.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377960/partners/txnhc1ib0zxobnzkeqth.png",
     alt: "Partner 27",
   },
   {
-    img: "./images/partners/28.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/d1xmvcbc435b0lgoakhf.png",
     alt: "Partner 28",
   },
   {
-    img: "./images/partners/29.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/wvj7fv8yqnuq3ts3i2qc.png",
     alt: "Partner 29",
   },
   {
-    img: "./images/partners/30.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/uezn8wdde38imtosrske.png",
     alt: "Partner 30",
   },
   {
-    img: "./images/partners/31.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377959/partners/gjhz2ltrts66hzpciscz.png",
     alt: "Partner 31",
   },
 ];
@@ -218,7 +218,10 @@ const Home = () => {
       <div className="p-4 flex flex-col gap-20 items-center justify-center mb-20">
         <div className="grid grid-cols-2 pt-14 max-w-[1400px]">
           <div className="flex items-center justify-center">
-            <img src="./images/banner/about.png" className="w-[500px] " />
+            <img
+              src="https://res.cloudinary.com/anh-khoi/image/upload/v1739377981/banner/h6uatvwyl0esyfja9srp.png"
+              className="w-[500px] "
+            />
           </div>
           <div className="flex flex-col ">
             <h2 className="text-3xl font-bold mb-6">Giới Thiệu Chung</h2>
@@ -248,7 +251,10 @@ const Home = () => {
               </p>
             </div>
             <div className="flex items-center justify-center ">
-              <img src="/images/banner/tam-nhin.png" className="w-[500px] " />
+              <img
+                src="https://res.cloudinary.com/anh-khoi/image/upload/v1739377981/banner/qstlq6tzb7ersa8neolx.png"
+                className="w-[500px] "
+              />
             </div>
           </div>
         </div>
@@ -376,7 +382,10 @@ const Home = () => {
         {/* Tại Sao Chọn Chúng Tôi */}
         <div className="grid grid-cols-2 max-w-[1400px] gap-10">
           <div className="flex items-end justify-end">
-            <img src="./images/banner/why-us.png" className="w-[400px]" />
+            <img
+              src="https://res.cloudinary.com/anh-khoi/image/upload/v1739377981/banner/cawtuulyct110ojkyfkz.png"
+              className="w-[400px]"
+            />
           </div>
           <div className="max-w-6xl  px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
