@@ -376,7 +376,7 @@ const Home = () => {
         {/* Tại Sao Chọn Chúng Tôi */}
         <div className="grid grid-cols-2 max-w-[1400px] gap-10">
           <div className="flex items-end justify-end">
-            <img src="./images/banner/why-us.png" className="w-[400px] " />
+            <img src="./images/banner/why-us.png" className="w-[400px]" />
           </div>
           <div className="max-w-6xl  px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
