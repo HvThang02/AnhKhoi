@@ -2,19 +2,19 @@ import { Carousel } from "antd";
 
 const slides = [
   {
-    img: "./images/slides/1.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377937/slides/ufjbqxv8jymvqnwvyy7d.png",
     alt: "Banner slide 1",
   },
   {
-    img: "./images/slides/2.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377937/slides/teu9vrnmrvjlfjymevvc.png",
     alt: "Banner slide 2",
   },
   {
-    img: "./images/slides/3.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377937/slides/jlxdkeecckh42d5qasck.png",
     alt: "Banner slide 3",
   },
   {
-    img: "./images/slides/4.png",
+    img: "https://res.cloudinary.com/anh-khoi/image/upload/v1739377937/slides/zsdmla8elhvmudf93qcp.png",
     alt: "Banner slide 4",
   },
 ];
