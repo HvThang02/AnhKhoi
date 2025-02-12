@@ -1,5 +1,4 @@
 import React from "react";
-import { Footer } from "antd/es/layout/layout";
 
 const footerItems = [
   {
@@ -35,7 +34,7 @@ const footerItems = [
 
 function FooterLayout() {
   return (
-    <Footer className="mt-3 bg-secondary border-t border-gray-200">
+    <div className="mt-3 bg-secondary border-t border-gray-200">
       <div className="max-w-[1200px] w-full mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
@@ -84,7 +83,7 @@ function FooterLayout() {
           </p>
         </div>
       </div>
-    </Footer>
+    </div>
   );
 }
 
